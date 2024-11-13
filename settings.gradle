@@ -9,6 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+
     }
 }
 dependencyResolutionManagement {
@@ -19,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AttendanceTracking"
+rootProject.name = "AttendancTracking"
 include ':app'
 include ':OpenCV'

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "394083203851",
+    "firebase_url": "https://facerecognition-128be-default-rtdb.firebaseio.com",
+    "project_id": "facerecognition-128be",
+    "storage_bucket": "facerecognition-128be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394083203851:android:b7a2746825aa0c1ff8800e",
+        "android_client_info": {
+          "package_name": "com.example.appcpp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIAVK7foePQ0jPsRfWzTGP4oj-eNIN7F8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394083203851:android:a283703552105295f8800e",
+        "android_client_info": {
+          "package_name": "com.example.attendancetracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIAVK7foePQ0jPsRfWzTGP4oj-eNIN7F8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

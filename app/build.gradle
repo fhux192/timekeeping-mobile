@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-//    alias(libs.plugins.google.gms.google.services)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -17,7 +17,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-                arguments "-DOpenCV_DIR=/home/asus/Downloads/opencv-4.10.0-android-sdk/OpenCV-android-sdk/sdk/native/jni",
+                arguments "-DOpenCV_DIR=/home/asus/Downloads/opencv-4.9.0-android-sdk/OpenCV-android-sdk/sdk/native/jni",
                         "-DANDROID_TOOLCHAIN=clang",
                         "-DANDROID_STL=c++_static"
                 targets "attendancetracking"
@@ -62,11 +62,11 @@ dependencies {
     implementation libs.activity
     implementation libs.constraintlayout
     implementation project(':OpenCV')
-//    implementation libs.firebase.database
+    implementation libs.firebase.database
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 }
 
 //apply plugin : 'com.google.gms.google-services'
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'
